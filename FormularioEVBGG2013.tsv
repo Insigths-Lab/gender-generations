@@ -1,0 +1,592 @@
+ID	Modulo	Pregunta	Opciones de respuesta
+D1	IDENTIFICACIÓN DEL HOGAR	Todas las personas que viven en esta vivienda, ¿dependen de un mismo fondo de alimentación, es decir, conforman un hogar?	1 Si pase a preg. 3, 2 No
+D2	IDENTIFICACIÓN DEL HOGAR	¿Cuántos hogares comparten esta vivienda? Si son 6 o más hogares es una vivienda COLECTIVA, Sustituya.	Anote cantidad.
+E0	COMPOSICIÓN DEL HOGAR	¿Cuántas mujeres de 15 años y más residen habitualmente en este hogar?	Anote cantidad.... Si responde 0. Finalice la entrevista. Si responde 1 o más continúe.
+E3	COMPOSICIÓN DEL HOGAR	Por favor diganme el nombre, el apellido y la edad (en años cumplidos) de todas las personas que integran este hogar.	(Listar Nombres y Apellidos)
+E4	COMPOSICIÓN DEL HOGAR	¿Cuántos años cumplidos tiene?	(Anote Edad)
+E5	COMPOSICIÓN DEL HOGAR	Sexo:	1-Hombre, 2-Mujer
+E6	COMPOSICIÓN DEL HOGAR	Qué relación de parentesco tiene con el/la jefe/a del hogar?	1. Jefe/a o persona de referencia, 2 Esposo/a o compañero/a, 3. Hijo/a de ambos, 4. Hijo/a sólo de jefe/a, 5. Hijo/a del esposo/a o compañero/a, 6. Yerno/nuera, 7. Padre/madre, 8. Suegro/a, 9. Hermano/a, 10. Cuñado/a, 11. Nieto/a, 12. Otro pariente, 13. Otro no pariente, 14. Servicio doméstico o familiar del mismo
+E7	COMPOSICIÓN DEL HOGAR	¿La madre integra este hogar?	1-Si, 2-No Pase a preg 8
+E7_1	COMPOSICIÓN DEL HOGAR	Registre el número de persona	
+E8	COMPOSICIÓN DEL HOGAR	¿El padre integra este hogar?	1-si, 2-No Pase a preg 8 (probablemente debería ser 9)
+E8_1	COMPOSICIÓN DEL HOGAR	Registre el número de persona	
+F9	ASCENDENCIA ETNICO-RACIAL DE LA ENTREVISTADA	¿Usted tiene ascendencia...	(Ver subpreguntas F9_1 a F9_5)
+F9_1	ASCENDENCIA ETNICO-RACIAL DE LA ENTREVISTADA	9.1 Afro o Negra?	1 Si, 2 No
+F9_2	ASCENDENCIA ETNICO-RACIAL DE LA ENTREVISTADA	9.2 Asiática o Amarilla?	1 Si, 2 No
+F9_3	ASCENDENCIA ETNICO-RACIAL DE LA ENTREVISTADA	9.3 Blanca?	1 Si, 2 No
+F9_4	ASCENDENCIA ETNICO-RACIAL DE LA ENTREVISTADA	9.4 Indigena?	1 Si, 2 No
+F9_5	ASCENDENCIA ETNICO-RACIAL DE LA ENTREVISTADA	9.5 Otra	1 Si, 2 No
+F9_5_1	ASCENDENCIA ETNICO-RACIAL DE LA ENTREVISTADA	especificar	
+F10	ÁMBITO EDUCATIVO	10 ¿Asiste actualmente a algún establecimiento de enseñanza preescolar, primaria, secundaria, superior o técnica?	1 Si pase a preg. 13, 2 No
+F11	CARACTERIZACIÓN EDUCATIVA DE LA ENTREVISTADA	11 Aunque no asiste actualmente, ¿asistió alguna vez a un establecimiento de enseñanza preescolar, primaria, secundaria, superior o técnica?	1 Si, 2 No pase a preg. 20
+F12	CARACTERIZACIÓN EDUCATIVA DE LA ENTREVISTADA	12 En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿asistió a un centro educativo?	1 Si, 2 No
+F13	CARACTERIZACIÓN EDUCATIVA DE LA ENTREVISTADA	13 ¿Cuál es el nivel de educación más alto alcanzado? (En el caso de las personas que asisten indique el nivel que cursa actualmente)	1 Preescolar, 2 Primaria común, 3 Primaria especial, 4 Enseñanza técnica sin exigencias previas, 5 Ciclo Básico Liceo o UTU, 6 Bachillerato Secundario (4to a 6to), 7 Bachillerato Tecnológico UTU, 8 Terciario no universitario (incluye tecnicaturas de UTU), 9 Magisterio o Profesorado, 10 Universidad o similar, 11 Posgrado
+F14	CARACTERIZACIÓN EDUCATIVA DE LA ENTREVISTADA	14 ¿Cuántos años aprobó en ese nivel?	Anote cantidad (años)
+F15	CARACTERIZACIÓN EDUCATIVA DE LA ENTREVISTADA	15 ¿Finalizó el nivel mas alto indicado?	1 Si, 2 No
+F16_1_2	VIOLENCIA EN EL ÁMBITO EDUCATIVO	16. Durante toda su vida de estudiante, ¿alguna autoridad del centro educativo (director/a, profesor/a, maestro/a), personal administrativo ó compañero de estudio... 16.1 La ignoró, ofendió, menosprecio, subestimó o denigró por ser mujer? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F16_1_3	VIOLENCIA EN EL ÁMBITO EDUCATIVO	¿Quién fue?, principalmente	1 Directoras/es, 2 Profesor/a(es), 3 Personal del centro educativo, 4 Compañeros/as de estudio
+F16_2_2	VIOLENCIA EN EL ÁMBITO EDUCATIVO	16. Durante toda su vida de estudiante, ¿alguna autoridad del centro educativo (director/a, profesor/a, maestro/a), personal administrativo ó compañero de estudio... 16.2 Le hizo insinuaciones o propuestas de tipo sexual a cambio de mejoras en sus notas o calificaciones? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F16_2_3	VIOLENCIA EN EL ÁMBITO EDUCATIVO	¿Quién fue?, principalmente	1 Directoras/es, 2 Profesor/a(es), 3 Personal del centro educativo, 4 Compañeros/as de estudio
+F16_3_2	VIOLENCIA EN EL ÁMBITO EDUCATIVO	16. Durante toda su vida de estudiante, ¿alguna autoridad del centro educativo (director/a, profesor/a, maestro/a), personal administrativo ó compañero de estudio... 16.3 Tomó represalias contra usted por haberse negado a sus pretensiones? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F16_3_3	VIOLENCIA EN EL ÁMBITO EDUCATIVO	¿Quién fue?, principalmente	1 Directoras/es, 2 Profesor/a(es), 3 Personal del centro educativo, 4 Compañeros/as de estudio
+F16_4_2	VIOLENCIA EN EL ÁMBITO EDUCATIVO	16. Durante toda su vida de estudiante, ¿alguna autoridad del centro educativo (director/a, profesor/a, maestro/a), personal administrativo ó compañero de estudio... 16.4 Tocó su cuerpo sin su consentimiento? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F16_4_3	VIOLENCIA EN EL ÁMBITO EDUCATIVO	¿Quién fue?, principalmente	1 Directoras/es, 2 Profesor/a(es), 3 Personal del centro educativo, 4 Compañeros/as de estudio
+F16_5_2	VIOLENCIA EN EL ÁMBITO EDUCATIVO	16. Durante toda su vida de estudiante, ¿alguna autoridad del centro educativo (director/a, profesor/a, maestro/a), personal administrativo ó compañero de estudio... 16.5 La obligó a tener relaciones sexuales o intento forzarla a tener relaciones sexuales? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F16_5_3	VIOLENCIA EN EL ÁMBITO EDUCATIVO	¿Quién fue?, principalmente	1 Directoras/es, 2 Profesor/a(es), 3 Personal del centro educativo, 4 Compañeros/as de estudio
+F16_6_2	VIOLENCIA EN EL ÁMBITO EDUCATIVO	16. Durante toda su vida de estudiante, ¿alguna autoridad del centro educativo (director/a, profesor/a, maestro/a), personal administrativo ó compañero de estudio... 16.6 La obligó a realizar actos sexuales o a tener relaciones sexuales a cambio de dinero u otros beneficios? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F16_6_3	VIOLENCIA EN EL ÁMBITO EDUCATIVO	¿Quién fue?, principalmente	1 Directoras/es, 2 Profesor/a(es), 3 Personal del centro educativo, 4 Compañeros/as de estudio
+F17	BÚSQUEDA DE AYUDA	17. Antes de esta entrevista ¿había hablado con alguien sobre esto que le ocurrió? (Condición: Si P16 tuvo al menos un Si)	1 Si, 2 No pase a preg. 19
+F18_1	BÚSQUEDA DE AYUDA	18.1 Acudió a solicitar orientación e información (Condición: Si P16 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F18_2	BÚSQUEDA DE AYUDA	18.2 Acudió a solicitar apoyo legal.... (Condición: Si P16 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F18_3	BÚSQUEDA DE AYUDA	18.3 Acudió a solicitar apoyo psicológico (Condición: Si P16 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F18_4	BÚSQUEDA DE AYUDA	18.4 Realizó alguna denuncia administrativa en el centro educativo (Condición: Si P16 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F18_5	BÚSQUEDA DE AYUDA	18.5 Denuncio ante la Policia. (Condición: Si P16 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F18_6	BÚSQUEDA DE AYUDA	18.6 Otro..... (Condición: Si P16 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F19_1	BÚSQUEDA DE AYUDA	19.1 Por vergüenza (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_2	BÚSQUEDA DE AYUDA	19.2 Pensó que no le iban a creer...... (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_3	BÚSQUEDA DE AYUDA	19.3 Por miedo de las consecuencias (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_4	BÚSQUEDA DE AYUDA	19.4 La amenazaron. (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_5	BÚSQUEDA DE AYUDA	19.5 Porque se trato de un hecho sin importancia. (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_6	BÚSQUEDA DE AYUDA	19.6 No sabía como y dónde denunciar. (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_7	BÚSQUEDA DE AYUDA	19.7 No sabía que existen instituciones de apoyo (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_8	BÚSQUEDA DE AYUDA	19.8 No confía en las autoridades o en la respuesta de las autoridades del centro educativo (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_9	BÚSQUEDA DE AYUDA	19.9 No confia en las autoridades policiales o judiciales o en su respuesta ante el problema (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F19_10	BÚSQUEDA DE AYUDA	19.10 No sabía qué podía denunciar. (Condición: Si P17=2 o todo P18=2)	1 Si, 2 No
+F20_1_2	VIOLENCIA EN LUGARES PÚBLICOS	20. Alguna vez en lugares públicos como la calle, transporte, lugares de diversión o fiesta, parques, deportivos, iglesias, servicios de salud, ¿le ha ocurrido que alguna persona conocida o desconocida (No considere a personas de su familia o pareja): 20.1 La ofendió o denigró con frases o palabras obscenas de tipo sexual por ser mujer //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F20_1_3	VIOLENCIA EN LUGARES PÚBLICOS	¿Quién fue principalmente?	1 Conocido, amigo, vecino, 2 Policia, militar, 3 Sacerdote, ministro de culto o religioso, 4 Médico/a, enfermero/a u otro personal de salud, 5 Desconocido, 6 Otro
+F20_2_2	VIOLENCIA EN LUGARES PÚBLICOS	20. Alguna vez en lugares públicos como la calle, transporte, lugares de diversión o fiesta, parques, deportivos, iglesias, servicios de salud, ¿le ha ocurrido que alguna persona conocida o desconocida (No considere a personas de su familia o pareja): 20.2 Hizo que sintiera miedo de sufrir un ataque o abuso sexual? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F20_2_3	VIOLENCIA EN LUGARES PÚBLICOS	¿Quién fue principalmente?	1 Conocido, amigo, vecino, 2 Policia, militar, 3 Sacerdote, ministro de culto o religioso, 4 Médico/a, enfermero/a u otro personal de salud, 5 Desconocido, 6 Otro
+F20_3_2	VIOLENCIA EN LUGARES PÚBLICOS	20. Alguna vez en lugares públicos como la calle, transporte, lugares de diversión o fiesta, parques, deportivos, iglesias, servicios de salud, ¿le ha ocurrido que alguna persona conocida o desconocida (No considere a personas de su familia o pareja): 20.3 Tocó su cuerpo sin su consentimiento? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F20_3_3	VIOLENCIA EN LUGARES PÚBLICOS	¿Quién fue principalmente?	1 Conocido, amigo, vecino, 2 Policia, militar, 3 Sacerdote, ministro de culto o religioso, 4 Médico/a, enfermero/a u otro personal de salud, 5 Desconocido, 6 Otro
+F20_4_2	VIOLENCIA EN LUGARES PÚBLICOS	20. Alguna vez en lugares públicos como la calle, transporte, lugares de diversión o fiesta, parques, deportivos, iglesias, servicios de salud, ¿le ha ocurrido que alguna persona conocida o desconocida (No considere a personas de su familia o pareja): 20.4 La obligó a tener relaciones sexuales o intento forzarla a tener relaciones sexuales? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F20_4_3	VIOLENCIA EN LUGARES PÚBLICOS	¿Quién fue principalmente?	1 Conocido, amigo, vecino, 2 Policia, militar, 3 Sacerdote, ministro de culto o religioso, 4 Médico/a, enfermero/a u otro personal de salud, 5 Desconocido, 6 Otro
+F20_5_2	VIOLENCIA EN LUGARES PÚBLICOS	20. Alguna vez en lugares públicos como la calle, transporte, lugares de diversión o fiesta, parques, deportivos, iglesias, servicios de salud, ¿le ha ocurrido que alguna persona conocida o desconocida (No considere a personas de su familia o pareja): 20.5 La obligaron a realizar actos sexuales o a tener relaciones sexuales a cambio de dinero //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió…	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F20_5_3	VIOLENCIA EN LUGARES PÚBLICOS	¿Quién fue principalmente?	1 Conocido, amigo, vecino, 2 Policia, militar, 3 Sacerdote, ministro de culto o religioso, 4 Médico/a, enfermero/a u otro personal de salud, 5 Desconocido, 6 Otro
+F21	BÚSQUEDA DE AYUDA	21. Antes de esta entrevista ¿había hablado con alguien sobre esto que le ocurrió? (Condición: Si P20 tuvo al menos un Si)	1 Si, 2 No pase a preg. 24
+F22_1	BÚSQUEDA DE AYUDA	22.1 Acudió a solicitar orientación e información (Condición: Si P20 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F22_2	BÚSQUEDA DE AYUDA	22.2 Acudió a solicitar apoyo legal (Condición: Si P20 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F22_3	BÚSQUEDA DE AYUDA	22.3 Acudió a solicitar apoyo psicológico. (Condición: Si P20 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F22_4	BÚSQUEDA DE AYUDA	22.4 Denuncio ante la Policía.... (Condición: Si P20 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F22_5	BÚSQUEDA DE AYUDA	22.5 Otro.. (Condición: Si P20 tuvo frec 1, 2 o 3)	1 Si, 2 No
+F23_1	BÚSQUEDA DE AYUDA	23.1 Por vergüenza (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F23_2	BÚSQUEDA DE AYUDA	23.2 Pensó que no le iban a creer.. (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F23_3	BÚSQUEDA DE AYUDA	23.3 Por miedo de las consecuencias. (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F23_4	BÚSQUEDA DE AYUDA	23.4 La amenazaron. (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F23_5	BÚSQUEDA DE AYUDA	23.5 Porque se trato de un hecho sin importancia. (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F23_6	BÚSQUEDA DE AYUDA	23.6 No sabía cómo y donde denunciar. (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F23_7	BÚSQUEDA DE AYUDA	23.7 No sabia que existen instituciones de apoyo (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F23_8	BÚSQUEDA DE AYUDA	23.8 No confia en las autoridades policiales o judiciales o en su respuesta ante el problema. (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F23_9	BÚSQUEDA DE AYUDA	23.9 No sabía qué podía denunciar (Condición: Si P21=2 o todo P22=2)	1 Si, 2 No
+F24	CARACTERIZACIÓN DE LA ACTIVIDAD LABORAL DE LA ENTREVISTADA	24. Durante la semana pasada, ¿trabajó por lo menos una hora sin considerar los quehaceres de su hogar?	1 Si pase a preg. 27, 2 No.
+F25	CARACTERIZACIÓN DE LA ACTIVIDAD LABORAL DE LA ENTREVISTADA	25 ¿Hizo algo para afuera o ayudó en un negocio o colaboró en el cuidado de animales, cultivos o huertas que no fuera para su consumo propio?	1 Si pase a preg. 27, 2 No
+F26	CARACTERIZACIÓN DE LA ACTIVIDAD LABORAL DE LA ENTREVISTADA	26 Aunque no trabajó la semana pasada, ¿tiene algún trabajo o negocio al que seguro volverá?	1 Si pase a preg. 27, 2 No.
+F26_1	CARACTERIZACIÓN DE LA ACTIVIDAD LABORAL DE LA ENTREVISTADA	Durante la semana pasada, ¿estuvo buscando trabajo o tratando de establecer su propio negocio?	1 Si, 2 No
+F27	CARACTERIZACIÓN DE LA ACTIVIDAD LABORAL DE LA ENTREVISTADA	27 En su trabajo principal es...	1 Asalariada privada, 2 Asalariada pública, 3 Miembro de cooperativa de producción, 4 Patrona, 5 Cuenta propia sin local ni inversión, 6 Cuenta propia con local o inversión, 7 Miembro del hogar no remunerado, 8 Trabajadora de Programa social de empleo.
+F28	CARACTERIZACIÓN DE LA ACTIVIDAD LABORAL DE LA ENTREVISTADA	28 ¿Es jubilada o pensionista?	1 Si, 2 No
+F29	CARACTERIZACIÓN DE LA ACTIVIDAD LABORAL DE LA ENTREVISTADA	29 ¿Es quién realiza los quehaceres de su hogar?	1 Si, 2 No pase a tabla
+F30_1_1	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.1 Por su trabajo o ganancias? (Último mes)	1 Si, 2 No
+F30_1_2	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.1 Por su trabajo o ganancias? (Últimos 12 meses)	1 Si, 2 No
+F30_2_1	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.2 Por pensión ó jubilación? (Último mes)	1 Si, 2 No
+F30_2_2	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.2 Por pensión ó jubilación? (Últimos 12 meses)	1 Si, 2 No
+F30_3_1	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.3 Por ayuda de algún familiar? (Último mes)	1 Si, 2 No
+F30_3_2	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.3 Por ayuda de algún familiar? (Últimos 12 meses)	1 Si, 2 No
+F30_4_1	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.4 Por apoyos del Estado (asignaciones familiars, tarjetas MIDES, etc.? (Último mes)	1 Si, 2 No
+F30_4_2	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.4 Por apoyos del Estado (asignaciones familiars, tarjetas MIDES, etc.? (Últimos 12 meses)	1 Si, 2 No
+F30_5_1	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.5 Por renta de alguna propiedad, terreno, campo, intereses bancarios? (Último mes)	1 Si, 2 No
+F30_5_2	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.5 Por renta de alguna propiedad, terreno, campo, intereses bancarios? (Últimos 12 meses)	1 Si, 2 No
+F30_6_1	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.6 De ahorros que puede disponer periódicamente? (Último mes)	1 Si, 2 No
+F30_6_2	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.6 De ahorros que puede disponer periódicamente? (Últimos 12 meses)	1 Si, 2 No
+F30_7_1	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.7 Otro (Último mes)	1 Si, 2 No
+F30_7_2	INGRESOS PROPIOS	30. ¿Cuenta con ingresos propios (solo incluya ingresos monetarios).... 30.7 Otro (Últimos 12 meses)	1 Si, 2 No
+F31	SITUACIÓN LABORAL DE LA ENTREVISTADA EN LOS ÚLTIMOS 12 MESES	31 En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿trabajó por lo menos una hora sin considerar los quehaceres de su hogar?	1 Si, 2 No. pase a preg. 33
+F32	SITUACIÓN LABORAL DE LA ENTREVISTADA EN LOS ÚLTIMOS 12 MESES	32 En su trabajo principal usted era/es... Se refiere al trabajo sobre el que responde en la pregunta 31, si tuvo más de uno responde por el principal.	1 Asalariada privada. pase a preg. 34., 2 Asalariada pública pase a preg. 34, 3 Miembro de cooperativa de producción pase a preg. 33, 4 Patrona pase a preg. 33, 5 Cuenta propia sin local ni inversión. pase a preg. 33, 6 Cuenta propia con local o inversión pase a preg. 33, 7 Miembro del hogar no remunerado pase a preg. 33, 8 Trabajadora de Programa social de empleo. pase a preg. 34
+F33	SITUACIÓN LABORAL DE LA ENTREVISTADA EN LOS ÚLTIMOS 12 MESES	33 ¿Ha trabajado antes (en su vida) por un jornal o salario, es decir bajo relación de dependencia?	1 Si pase a preg. 39, 2 No. pase a tabla
+F34_1_1	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.1 ¿Le pidieron la prueba de embarazo como requisito para entrar o se lo han pedido como requisito para continuar?	1 Si, 2 No
+F34_1_2	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.1 ¿Le pidieron la prueba de embarazo como requisito para entrar o se lo han pedido como requisito para continuar? //En los últimos 12 meses(, de setiembre 2012 a la fecha) ¿Esto ocurrió?	1 Si, 2 No
+F34_2_1	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.2 ¿La despidieron, no le renovaron el contrato, le bajaron el salario o la perjudicaron de alguna manera por estar embarazada?	1 Si, 2 No, 9 No aplica (Nunca estuvo embarazada)
+F34_2_2	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.2 ¿La despidieron, no le renovaron el contrato, le bajaron el salario o la perjudicaron de alguna manera por estar embarazada? //En los últimos 12 meses(, de setiembre 2012 a la fecha) ¿Esto ocurrió?	1 Si, 2 No
+F34_3_1	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.3 ¿Le negaron el permiso de maternidad o lactancia?	1 Si, 2 No, 9 No aplica (Nunca estuvo embarazada)
+F34_3_2	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.3 ¿Le negaron el permiso de maternidad o lactancia? //En los últimos 12 meses(, de setiembre 2012 a la fecha) ¿Esto ocurrió?	1 Si, 2 No
+F34_4_1	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.4 ¿Le impidieron, limitaron o negaron tomarse el día para la realización de papanicolau o mamografia?	1 Si, 2 No
+F34_4_2	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.4 ¿Le impidieron, limitaron o negaron tomarse el día para la realización de papanicolau o mamografia? //En los últimos 12 meses(, de setiembre 2012 a la fecha) ¿Esto ocurrió?	1 Si, 2 No
+F34_5_1	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.5 ¿Tuvo menos oportunidad para ascender que un hombre?	1 Si, 2 No
+F34_5_2	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.5 ¿Tuvo menos oportunidad para ascender que un hombre? //En los últimos 12 meses(, de setiembre 2012 a la fecha) ¿Esto ocurrió?	1 Si, 2 No
+F34_6_1	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.6 ¿Debido a su estado civil o por tener hijos pequeños, la despidieron o no la contrataron?	1 Si, 2 No
+F34_6_2	VIOLENCIA EN EL ÁMBITO LABORAL	34. Durante su vida laboral, ¿usted vivió alguna de las siguientes situaciones en sus trabajos? 34.6 ¿Debido a su estado civil o por tener hijos pequeños, la despidieron o no la contrataron? //En los últimos 12 meses(, de setiembre 2012 a la fecha) ¿Esto ocurrió?	1 Si, 2 No
+F35_1_1	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.1 La ignoró, ofendió, menosprecio, subestimó o denigró por ser mujer?	1 Si, 2 No
+F35_1_2	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.1 La ignoró, ofendió, menosprecio, subestimó o denigró por ser mujer? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió...	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F35_1_3	VIOLENCIA EN EL ÁMBITO LABORAL	¿Quién fue principalmente?	1 Jefe/a o Directivo/a., 2 Compañero/a de trabajo
+F35_2_1	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.2 Le hizo insinuaciones o propuestas de tipo sexual a cambio de mejoras en el trabajo?	1 Si, 2 No
+F35_2_2	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.2 Le hizo insinuaciones o propuestas de tipo sexual a cambio de mejoras en el trabajo? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió...	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F35_2_3	VIOLENCIA EN EL ÁMBITO LABORAL	¿Quién fue principalmente?	1 Jefe/a o Directivo/a., 2 Compañero/a de trabajo
+F35_3_1	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.3 Tomó represalias contra usted por haberse negado a sus pretensiones?	1 Si, 2 No
+F35_3_2	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.3 Tomó represalias contra usted por haberse negado a sus pretensiones? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió...	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F35_3_3	VIOLENCIA EN EL ÁMBITO LABORAL	¿Quién fue principalmente?	1 Jefe/a o Directivo/a., 2 Compañero/a de trabajo
+F35_4_1	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.4 Le tocó el cuerpo sin su consentimiento?	1 Si, 2 No
+F35_4_2	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.4 Le tocó el cuerpo sin su consentimiento? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió...	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F35_4_3	VIOLENCIA EN EL ÁMBITO LABORAL	¿Quién fue principalmente?	1 Jefe/a o Directivo/a., 2 Compañero/a de trabajo
+F35_5_1	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.5 La obligó a tener relaciones sexuales o intento forzarla a tener relaciones sexuales?	1 Si, 2 No
+F35_5_2	VIOLENCIA EN EL ÁMBITO LABORAL	35. A lo largo de su vida laboral ¿algún jefe/a, directivo/a o compañero/a de trabajo: 35.5 La obligó a tener relaciones sexuales o intento forzarla a tener relaciones sexuales? //En los últimos 12 meses (de setiembre de 2012 a la fecha) ¿Esto ocurrió...	1 Una vez, 2 Pocas veces, 3 Muchas veces, 4 Ninguna vez
+F35_5_3	VIOLENCIA EN EL ÁMBITO LABORAL	¿Quién fue principalmente?	1 Jefe/a o Directivo/a., 2 Compañero/a de trabajo
+F36	BUSQUEDA DE AYUDA	36 Antes de esta entrevista, ¿había hablado con alguien sobre esto que le ocurrió? (Condición: Si al menos un F35_x_1 = 1)	1 Si, 2 No pase a preg. 38
+F37.1	BUSQUEDA DE AYUDA	37.1 Acudió a solicitar orientación e información (Condición: Si F35_x_2 = 1, 2 o 3)	1 Si, 2 No
+F37.2	BUSQUEDA DE AYUDA	37.2 Acudió a solicitar apoyo legal (Condición: Si F35_x_2 = 1, 2 o 3)	1 Si, 2 No
+F37.3	BUSQUEDA DE AYUDA	37.3 Acudió a solicitar apoyo psicológico (Condición: Si F35_x_2 = 1, 2 o 3)	1 Si, 2 No
+F37.4	BUSQUEDA DE AYUDA	37.4 Realizó alguna denuncia administrativa en el trabajo.... (Condición: Si F35_x_2 = 1, 2 o 3)	1 Si, 2 No
+F37.5	BUSQUEDA DE AYUDA	37.5 Denuncio ante la Policía. (Condición: Si F35_x_2 = 1, 2 o 3)	1 Si, 2 No
+F37.6	BUSQUEDA DE AYUDA	37.6 Otro.. (Condición: Si F35_x_2 = 1, 2 o 3)	1 Si, 2 No
+F38.1	BUSQUEDA DE AYUDA	38.1 Por vergüenza. (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.2	BUSQUEDA DE AYUDA	38.2 Pensó que no le iban a creer. (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.3	BUSQUEDA DE AYUDA	38.3 Por miedo de las consecuencias. (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.4	BUSQUEDA DE AYUDA	38.4 La amenazaron.. (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.5	BUSQUEDA DE AYUDA	38.5 Porque se trato de un hecho sin importancia. (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.6	BUSQUEDA DE AYUDA	38.6 No sabía como y dónde denunciar. (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.7	BUSQUEDA DE AYUDA	38.7 No sabia que existen instituciones de apoyo (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.8	BUSQUEDA DE AYUDA	38.8 No confía en las autoridades de su trabajo o en su respuesta ante el problema.... (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.9	BUSQUEDA DE AYUDA	38.9 No confía en las autoridades policiales o judiciales o en su respuesta ante el problema (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F38.10	BUSQUEDA DE AYUDA	38.10 No sabia qué podía denunciar (Condición: Si F36=2 o todo F37=2)	1 Si, 2 No
+F39_1_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.1 La ignoraban, no la tomaban en cuenta, o no le demostraban afecto?	1 Si, 2 No
+F39_1_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_2_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.2 La insultaban, la maldecían, la llamaban ""estúpida"" o algo parecido?	1 Si, 2 No
+F39_2_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_3_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.3 La amenazaban con pegarle o echarla de la casa?	1 Si, 2 No
+F39_3_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_4_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.4 La amenazaban con cuchillos o armas?	1 Si, 2 No
+F39_4_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_5_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.5 La dejaban sin comer, la encerraban, no la cuidaban, no estaban pendientes de sus necesidades o la abandonaban?	1 Si, 2 No
+F39_5_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_6_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.6 La empujaban, la sacudian, le tiraban del pelo o la escupían?	1 Si, 2 No
+F39_6_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_7_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.7 Le daban cachetadas, le daban palmadas, la golpeaban con algún objeto, con el puño o la pateaban?	1 Si, 2 No
+F39_7_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_8_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.8 Le daban palizas?	1 Si, 2 No
+F39_8_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_9_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.9 La quemaron o le tiraron agua caliente a propósito?	1 Si, 2 No
+F39_9_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_10_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.10 Tocaron su cuerpo a la fuerza o la obligaron a tocar el cuerpo de otra persona?	1 Si, 2 No
+F39_10_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_11_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.11 La obligaron a desvestirse, mostrar sus partes intimas y/ó mirar las partes intimas de otra persona, mirar revistas o videos pornográficos?	1 Si, 2 No
+F39_11_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F39_12_1	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	39. Durante su niñez, desde que usted recuerda y hasta cumplir 15 años de edad, las personas de su familia (convivientes o no), ¿alguna o varias veces... 39.12 La obligaron a tener relaciones sexuales o intentaron forzarla a tener relaciones sexuales?	1 Si, 2 No
+F39_12_2	VIOLENCIA EN LA INFANCIA (FÍSICA, EMOCIONAL Y SEXUAL)	Por lo general quién le hacía esto:	1 Padre, 2 Madre, 3 Padrastro, 4 Madrastra, 5 Hermano/a, 6 Otro familiar, 7 Otro no familiar
+F40	BUSQUEDA DE AYUDA	40 Antes de esta entrevista ¿había hablado con alguien de lo que le sucedió cuando era niña? (Condición: Si al menos un F39_x_1=1)	1 Si pase a preg. 44, 2 No
+F41	BUSQUEDA DE AYUDA	41 Cuando esto ocurrió, ¿le contó lo sucedido a alguna persona (familiares, amigas/os o compañeras/os)?	1 Si pase a preg. 44, 2 No
+F42.1	BUSQUEDA DE AYUDA	42.1 Si, a la madre (Condición: Si F41=2)	1 Si, 2 No
+F42.2	BUSQUEDA DE AYUDA	42.2 Si, al padre (Condición: Si F41=2)	1 Si, 2 No
+F42.3	BUSQUEDA DE AYUDA	42.3 Si, a un/a familiar.. (Condición: Si F41=2)	1 Si, 2 No
+F42.4	BUSQUEDA DE AYUDA	42.4 Si, a un/a amigo/a, a un/a compañero/a de estudio. (Condición: Si F41=2)	1 Si, 2 No
+F42.5	BUSQUEDA DE AYUDA	42.5 Si, a otra persona. (Condición: Si F41=2)	1 Si, 2 No
+F43.1	BUSQUEDA DE AYUDA	43.1 La llevaron al médico?. (Condición: Si F41=1 o algún F42=1)	1 Si, 2 No
+F43.2	BUSQUEDA DE AYUDA	43.2 La llevaron al psicólogo?. (Condición: Si F41=1 o algún F42=1)	1 Si, 2 No
+F43.3	BUSQUEDA DE AYUDA	43.3 Tomaron medidas para que no se repita? (Condición: Si F41=1 o algún F42=1)	1 Si, 2 No
+F43.4	BUSQUEDA DE AYUDA	43.4 Denunciaron el hecho?. (Condición: Si F41=1 o algún F42=1)	1 Si, 2 No
+F43.5	BUSQUEDA DE AYUDA	43.5 No le creyeron? (Condición: Si F41=1 o algún F42=1)	1 Si, 2 No
+F43.6	BUSQUEDA DE AYUDA	43.6 No hicieron nada? (Condición: Si F41=1 o algún F42=1)	1 Si, 2 No
+F43.7	BUSQUEDA DE AYUDA	43.7 Le prohibieron hablar sobre el asunto?. (Condición: Si F41=1 o algún F42=1)	1 Si, 2 No
+F43.8	BUSQUEDA DE AYUDA	43.8 Otro... (Condición: Si F41=1 o algún F42=1)	1 Si, 2 No
+F44.1	BUSQUEDA DE AYUDA	44.1 Tenia vergüenza............... (Condición: Si F40=2 o F41=2)	1 Si, 2 No
+F44.2	BUSQUEDA DE AYUDA	44.2 Pensó que ni le iban a creer. (Condición: Si F40=2 o F41=2)	1 Si, 2 No
+F44.3	BUSQUEDA DE AYUDA	44.3 Tenia miedo de las consecuencias (Condición: Si F40=2 o F41=2)	1 Si, 2 No
+F44.4	BUSQUEDA DE AYUDA	44.4 La amenazaron. (Condición: Si F40=2 o F41=2)	1 Si, 2 No
+F44.5	BUSQUEDA DE AYUDA	44.5 Creía que era la culpable o responsable de lo sucedido (Condición: Si F40=2 o F41=2)	1 Si, 2 No
+F44.6	BUSQUEDA DE AYUDA	44.6 Otro... (Condición: Si F40=2 o F41=2)	1 Si, 2 No
+F45_1_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.1 ¿Se refirió a usted con palabras groseras o agresivas que la han hecho sentir mal? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_1_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_1_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_2_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.2 ¿La criticó sobre lo que hace o deja de hacer? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_2_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_2_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_3_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.3 ¿Se burló de sus características físicas, su conocimiento, su forma de pensar, actuar y sentir? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_3_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_3_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_4_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.4 ¿La humilló, avergonzó o menospreció? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_4_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_4_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_5_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.5 ¿La culpó de las cosas que no salen bien? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_5_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_5_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_6_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.6 ¿Le rompió o escondió algún objeto personal? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_6_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_6_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_7_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.7 ¿Le quító su dinero, alguna pertenencia o se apropio de objetos o bienes suyos? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_7_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_7_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_8_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.8 ¿La encerró? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_8_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_8_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_9_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.9 ¿La empujó, sacudió, tiró al piso, pateó o le dio una cachetada? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_9_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_9_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_10_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.10 ¿La amenazó con quitarle sus hijos(as) y/o no permitirle verlos de nuevo? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica (quienes no tienen hijos)
+F45_10_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_10_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F45_11_1	VIOLENCIA DE LA FAMILIA ACTUAL	45.11 La amenazó verbalmente con hacerle daño a usted o a alguien que a usted le importa? (Últimos 12 meses)	1 Si, 2 No, 9 No aplica
+F45_11_2	VIOLENCIA DE LA FAMILIA ACTUAL	¿Esto ocurrió? (Últimos 12 meses)	1 Una vez, 2 Pocas veces, 3 Muchas veces
+F45_11_3	VIOLENCIA DE LA FAMILIA ACTUAL	¿Quién le hizo esto principalmente?	1 Padre/madre, 2 Suegro/a, 3 Hermano/a, 4 Cuñado/a, 5 Otro familiar suyo, 6 Otro familiar de su pareja
+F46	BUSQUEDA DE AYUDA	46 Antes de esta entrevista, ¿había hablado con alguien sobre esto que le ocurrió? (Condición: Si al menos un F45_x_1=1)	1 Si, 2 No. pase a preg 48
+F47.1	BUSQUEDA DE AYUDA	47.1 Acudió a solicitar orientación e información? (Condición: Si F45_x_2=1,2 o 3)	1 Si, 2 No
+F47.2	BUSQUEDA DE AYUDA	47.2 Acudió a solicitar apoyo legal? (Condición: Si F45_x_2=1,2 o 3)	1 Si, 2 No
+F47.3	BUSQUEDA DE AYUDA	47.3 Acudió a solicitar apoyo psicológico. (Condición: Si F45_x_2=1,2 o 3)	1 Si, 2 No
+F47.4	BUSQUEDA DE AYUDA	47.4 Denunció ante la policía? (Condición: Si F45_x_2=1,2 o 3)	1 Si, 2 No
+F47.5	BUSQUEDA DE AYUDA	47.5 Denunció ante el juzgado? (Condición: Si F45_x_2=1,2 o 3)	1 Si, 2 No
+F47.6	BUSQUEDA DE AYUDA	47.6 Buscó ayuda religiosa? (Condición: Si F45_x_2=1,2 o 3)	1 Si, 2 No
+F47.7	BUSQUEDA DE AYUDA	47.7 Acudió a Servicios de Salud? (Condición: Si F45_x_2=1,2 o 3)	1 Si, 2 No
+F47.8	BUSQUEDA DE AYUDA	47.8 Otro... (Condición: Si F45_x_2=1,2 o 3)	1 Si, 2 No
+F48.1	BUSQUEDA DE AYUDA	48.1 Por vergüenza. (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F48.2	BUSQUEDA DE AYUDA	48.2 Pensó que no le iban a creer. (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F48.3	BUSQUEDA DE AYUDA	48.3 Por miedo de las consecuencias (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F48.4	BUSQUEDA DE AYUDA	48.4 La amenazaron (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F48.5	BUSQUEDA DE AYUDA	48.5 Porque se trato de un hecho sin importancia (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F48.6	BUSQUEDA DE AYUDA	48.6 No sabía cómo y donde denunciar. (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F48.7	BUSQUEDA DE AYUDA	48.7 No sabía que existen instituciones de apoyo (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F48.8	BUSQUEDA DE AYUDA	48.8 No confia en las autoridades Policiales o Judiciales o en su respuesta ante el problema (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F48.9	BUSQUEDA DE AYUDA	48.9 No sabia qué podía denunciar. (Condición: Si F46=2 o todo F47=2)	1 Si, 2 No
+F49_1_1	VIOLENCIA GENERACIONAL	49.1 ¿Le dejaron de hablar o no la tomaron en cuenta? (Condición: Edad >= 65)	1 Si, 2 No
+F49_1_2	VIOLENCIA GENERACIONAL	¿Quién fue principalmente? (Condición: Si F49_1_1=1)	1 Hijo (s), 2 Hija (s), 3 Nieta (o), 4 Yernos/nueras, 5 Otro, cual?
+F49_1_3	VIOLENCIA GENERACIONAL	Especificar Otro (Condición: Si F49_1_2=5)	
+F49_2_1	VIOLENCIA GENERACIONAL	49.2 ¿La abandonaron? (Condición: Edad >= 65)	1 Si, 2 No
+F49_2_2	VIOLENCIA GENERACIONAL	¿Quién fue principalmente? (Condición: Si F49_2_1=1)	1 Hijo (s), 2 Hija (s), 3 Nieta (o), 4 Yernos/nueras, 5 Otro, cual?
+F49_2_3	VIOLENCIA GENERACIONAL	Especificar Otro (Condición: Si F49_2_2=5)	
+F49_3_1	VIOLENCIA GENERACIONAL	49.3 ¿Le impidieron ver y/o la aíslan de familiares o amigos? (Condición: Edad >= 65)	1 Si, 2 No
+F49_3_2	VIOLENCIA GENERACIONAL	¿Quién fue principalmente? (Condición: Si F49_3_1=1)	1 Hijo (s), 2 Hija (s), 3 Nieta (o), 4 Yernos/nueras, 5 Otro, cual?
+F49_3_3	VIOLENCIA GENERACIONAL	Especificar Otro (Condición: Si F49_3_2=5)	
+F49_4_1	VIOLENCIA GENERACIONAL	49.4 ¿Le gritaron, la insultaron, la ofendieron? (Condición: Edad >= 65)	1 Si, 2 No
+F49_4_2	VIOLENCIA GENERACIONAL	¿Quién fue principalmente? (Condición: Si F49_4_1=1)	1 Hijo (s), 2 Hija (s), 3 Nieta (o), 4 Yernos/nueras, 5 Otro, cual?
+F49_4_3	VIOLENCIA GENERACIONAL	Especificar Otro (Condición: Si F49_4_2=5)	
+F49_5_1	VIOLENCIA GENERACIONAL	49.5 ¿La amenazaron con echarla de la casa? (Condición: Edad >= 65)	1 Si, 2 No
+F49_5_2	VIOLENCIA GENERACIONAL	¿Quién fue principalmente? (Condición: Si F49_5_1=1)	1 Hijo (s), 2 Hija (s), 3 Nieta (o), 4 Yernos/nueras, 5 Otro, cual?
+F49_5_3	VIOLENCIA GENERACIONAL	Especificar Otro (Condición: Si F49_5_2=5)	
+F49_6_1	VIOLENCIA GENERACIONAL	49.6 ¿La lastimaron o golpearon? (Condición: Edad >= 65)	1 Si, 2 No
+F49_6_2	VIOLENCIA GENERACIONAL	¿Quién fue principalmente? (Condición: Si F49_6_1=1)	1 Hijo (s), 2 Hija (s), 3 Nieta (o), 4 Yernos/nueras, 5 Otro, cual?
+F49_6_3	VIOLENCIA GENERACIONAL	Especificar Otro (Condición: Si F49_6_2=5)	
+F49_7_1	VIOLENCIA GENERACIONAL	49.7 ¿Le dijeron o le hicieron sentir que es un estorbo? (Condición: Edad >= 65)	1 Si, 2 No
+F49_7_2	VIOLENCIA GENERACIONAL	¿Quién fue principalmente? (Condición: Si F49_7_1=1)	1 Hijo (s), 2 Hija (s), 3 Nieta (o), 4 Yernos/nueras, 5 Otro, cual?
+F49_7_3	VIOLENCIA GENERACIONAL	Especificar Otro (Condición: Si F49_7_2=5)	
+F49_8_1	VIOLENCIA GENERACIONAL	49.8 ¿Han abusado sexualmente de usted? (Condición: Edad >= 65)	1 Si, 2 No
+F49_8_2	VIOLENCIA GENERACIONAL	¿Quién fue principalmente? (Condición: Si F49_8_1=1)	1 Hijo (s), 2 Hija (s), 3 Nieta (o), 4 Yernos/nueras, 5 Otro, cual?
+F49_8_3	VIOLENCIA GENERACIONAL	Especificar Otro (Condición: Si F49_8_2=5)	
+F50	SITUACIÓN CONYUGAL ACTUAL	50 ¿Actualmente usted...	1 Vive en unión libre? pase a preg, 53, 2 Está casada conviviendo? pase a preg. 53, 3 Está separada?, 4 Está divorciada?, 5 Es viuda?., 6 Es soltera?.
+F51	SITUACIÓN CONYUGAL ACTUAL	51 ¿Actualmente tiene una relación de pareja o de noviazgo sin convivencia?	1 Si pase a preg. 59 o 65, 2 No
+F52	SITUACIÓN CONYUGAL ANTERIOR	52 Anteriormente usted... si tuvo más de una situación conyugal elija la más reciente)	1 Vivió en unión libre? pase a preg.91, 2 Estuvo casada? pase a preg.91, 3 Tuvo una relación de noviazgo?. pase a preg.91, 4 Nunca se casó, ni vivió en unión libre, ni tuvo una relación de pareja o noviazgo........... pase a preg 146
+F53	PAREJA ACTUAL	53 ¿Cuánto tiempo lleva casada o viviendo con su actual esposo/a o pareja? (Contexto: Casadas o Unidas)	Anote cantidad (años)
+F54	PAREJA ACTUAL	54 ¿A qué edad se casó o se unió con su actual esposo/a o pareja? (Contexto: Casadas o Unidas)	Anote edad (años)
+F55	PAREJA ACTUAL	55 ¿Contando su actual esposo/a o pareja conviviente ¿Cuántas veces ha estado casada o unida? (Contexto: Casadas o Unidas)	Anote cantidad... Si es mayor o igual a 2 continúe, sino pase a preg.57.
+F56	PAREJA ACTUAL	56 ¿A qué edad se casó o se unió por primera vez? (Contexto: Casadas o Unidas, si F55>=2)	Anote edad (años)
+F57	PAREJA ACTUAL	57 En total ¿cuántos hijos/as tiene? (Considere hijos biológicos nacidos vivos y adoptivos) (Contexto: Casadas o Unidas)	Anote cantidad... Si responde 0 pase a preg. 71
+F58	PAREJA ACTUAL	58 ¿Cuántos de sus hijos/as son de su actual esposo/a o pareja? (Contexto: Casadas o Unidas, si F57>0)	Anote cantidad
+F59	PAREJA ACTUAL	59 Contando a su actual novio/a o pareja no conviviente ¿Cuántas parejas o novios/as estables ha tenido? (Contexto: Solteras con pareja no conviviente)	Anote cantidad. Si es mayor o igual a 2 continúe, sino pase a preg.61.
+F60	PAREJA ACTUAL	60 ¿A qué edad tuvo su primer novio/a o pareja estable? (Contexto: Solteras con pareja no conviviente, si F59>=2)	Anote cantidad.
+F61	PAREJA ACTUAL	61 ¿A qué edad tuvo su primer relación sexual? (Contexto: Solteras con pareja no conviviente)	Anote edad (años). Si no tuvo si primera relación sexual resgistre 99. Si registra 99 pase a preg 70.
+F62	RELACIÓN DE PAREJA ACTUAL	Con su actual novio/a o pareja, ¿mantiene relaciones sexuales?	1 - Sí, 2 - No
+F63	RELACIÓN DE PAREJA ACTUAL	En total, ¿cuántos hijos/as tiene? (Considere hijos biológicos nacidos vivos y adoptivos)	Anote cantidad
+F64	RELACIÓN DE PAREJA ACTUAL	¿Cuántos de sus hijos/as son de su actual novio/a o pareja estable?	Anote cantidad
+F65	PARA LAS SEPARADAS, DIVORCIADAS O VIUDAS CON PAREJA	¿A que edad se casó o se unió con su ex esposo/a o ex pareja?	Anote cantidad (años)
+F66	PARA LAS SEPARADAS, DIVORCIADAS O VIUDAS CON PAREJA	Contando a su ex esposo/a o ex pareja ¿cuántas veces ha estado casada o unida?	Anote cantidad
+F67	PARA LAS SEPARADAS, DIVORCIADAS O VIUDAS CON PAREJA	¿A qué edad se casó o se unió por primera vez?	Anote cantidad (años)
+F68	PARA LAS SEPARADAS, DIVORCIADAS O VIUDAS CON PAREJA	En total ¿cuántos hijos/as tiene? (Considere hijos biológicos nacidos vivos y adoptivos)	Anote cantidad
+F69	PARA LAS SEPARADAS, DIVORCIADAS O VIUDAS CON PAREJA	¿Cuántos de sus hijos/as son de su ex esposo/a o ex pareja?	Anote cantidad
+F70	PARA TODAS LAS QUE ACTUALMENTE TIENEN PAREJA	¿Desde hace cuánto tiempo mantiene esta relación de pareja o noviazgo?	1 - Menos de un año, 2 - Un año, 3 - Dos a cuatro años, 4 - Cinco y más años
+F71	CARACTERIZACIÓN DE LA PAREJA ACTUAL	Actualmente, ¿cuántos años cumplidos tiene su pareja, esposo/a o novio/a?	Anote cantidad (años)
+F72	CARACTERIZACIÓN DE LA PAREJA ACTUAL	Su pareja, esposo/a o novio/a es...	1 - Hombre, 2 - Mujer
+F73_1	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a actual tiene ascendencia Afro o Negra?	1 - Sí, 2 - No
+F73_2	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a actual tiene ascendencia Asiática o Amarilla?	1 - Sí, 2 - No
+F73_3	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a actual tiene ascendencia Blanca?	1 - Sí, 2 - No
+F73_4	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a actual tiene ascendencia Indígena?	1 - Sí, 2 - No
+F73_5	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a actual tiene otra ascendencia?	1 - Sí, 2 - No
+F74	CARACTERIZACIÓN DE LA PAREJA ACTUAL	La semana pasada su pareja, esposo/a o novio/a...	1 - Trabajó (Pase a preg.76), 2 - Tenía trabajo pero no trabajó (Pase a preg.76), 3 - Buscó trabajo (Pase a preg.76), 4 - No trabajo
+F75_1	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a es estudiante?	1 - Sí, 2 - No
+F75_2	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a se dedica a los quehaceres del hogar exclusivamente?	1 - Sí, 2 - No
+F75_3	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a es jubilado/a o pensionista?	1 - Sí, 2 - No
+F75_4	CARACTERIZACIÓN DE LA PAREJA ACTUAL	¿Su pareja, esposo/a o novio/a tiene alguna limitación física o mental que le impide trabajar?	1 - Sí, 2 - No
+F76_1_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	Desde que empezó la relación con su pareja, esposo/a o novio/a, ¿él/ella se dirigió a usted con palabras groseras o agresivas que la han hecho sentir mal?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_1_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_2_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	Se burló o la criticó por sus características físicas, su conocimiento, su forma de pensar, actuar y sentir y/o la criticó por lo que hace o deja de hacer?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_2_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_3_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	La humilló, avergonzó o menospreció?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_3_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_4_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	La celó o la acusó de ser infiel de manera infundada?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_4_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_5_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	La ignoró y/o no la tomó en cuenta en las decisiones?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_5_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_6_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	La siguió, vigiló o le revisó sus cosas u objetos personales?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_6_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_7_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	Le prohibió o le impidió relacionarse con amigos/as y/o familiares?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_7_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_8_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	Le impidió o le puso obstáculos para que usted realice actividades recreativas, deportivas o de estudio fuera de su casa?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_8_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_9_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	La encerró o le impidió salir de su casa?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_9_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_10_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	Le exigió u obligó a cambiar su manera de vestir o comportarse?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_10_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_11_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	Le rompió o escondió algún objeto personal?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_11_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_12_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	La amenazó con quitarle sus hijos/as y/o no permitirle verlos de nuevo?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (Sólo si no tienen hijos/as)
+F76_12_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (Sólo si no tienen hijos/as)
+F76_13_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	La amenazó con matarla, matarse o matar a los niños o alguien que a usted le importa?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_13_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_14_1	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	Le ha hecho sentir miedo?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F76_14_2	VIOLENCIA PSICOLÓGICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F77_1_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA PAREJA ACTUAL	Desde que empezó la relación con su pareja, esposo/a, ¿él/ella se negó a darle suficiente dinero o dejó de darle dinero para los gastos del hogar y de sus hijos/as, a pesar de tenerlo?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F77_1_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F77_2_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA PAREJA ACTUAL	Se gastó el dinero que estaba destinado a cubrir las necesidades del hogar o de los hijos/as?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F77_2_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F77_3_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA PAREJA ACTUAL	Le quitó o se adueñó de su dinero, de bienes o cosas que son de usted?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F77_3_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F77_4_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA PAREJA ACTUAL	Le prohibió trabajar de forma remunerada?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F77_4_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_1_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	Desde que empezó la relación con su pareja, esposo/a o novio/a, ¿él/ella la empujó, la tiró del pelo, la sacudió, la escupió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_1_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_2_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	Le dio cachetadas o la golpeó con las manos?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_2_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_3_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	Le tiró con zapatos, utensilios de cocina, muebles o cualquier otro objeto?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_3_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_4_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	La golpeó con el puño, la pateó o golpeó con un objeto (como un palo)?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_4_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_5_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	La quemó?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_5_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_6_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	La ató?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_6_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_7_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	Intentó ahorcarla o asfixiarla?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_7_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_8_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	Intentó envenenarla o intoxicarla?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_8_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_9_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	La amenazó con un arma de fuego, arma blanca (cuchillo, navaja) u otra arma?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_9_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F78_10_1	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	La agredió con un arma blanca (cuchillo, navaja) o le disparó con un arma de fuego?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F78_10_2	VIOLENCIA FÍSICA DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F79_1_1	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	Desde que empezó la relación con su pareja, esposo/a o novio/a, ¿él/ella la obligó a tener relaciones sexuales en contra de su voluntad, mediante la fuerza física?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F79_1_2	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F79_2_1	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	Intentó tener relaciones sexuales mediante amenazas o chantajes?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F79_2_2	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F79_3_1	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	La obligó a tener relaciones sexuales por medio de amenazas o chantajes?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F79_3_2	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F79_4_1	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	La obligó a realizar actos sexuales que usted no quiere, no le gustan o considera humillantes?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F79_4_2	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F79_5_1	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	La ha obligado a mirar escenas o actos sexuales?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F79_5_2	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F79_6_1	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	La obligó a tener relaciones sexuales con otras personas a cambio de dinero o beneficios para su pareja?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F79_6_2	VIOLENCIA SEXUAL DE LA PAREJA ACTUAL	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F91	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	Actualmente ¿Cuántos años cumplidos tiene o tenía su ex pareja, ex esposo/a o ex novio/a?	Anote edad (años)
+F92	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	Su ex pareja, esposo/a o novio/a es...	1 - Hombre, 2 - Mujer
+F93_1	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Su ex pareja, esposo/a o novio/a tiene ascendencia Afro o Negra?	1 - Sí, 2 - No
+F93_2	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Su ex pareja, esposo/a o novio/a tiene ascendencia Asiática o Amarilla?	1 - Sí, 2 - No
+F93_3	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Su ex pareja, esposo/a o novio/a tiene ascendencia Blanca?	1 - Sí, 2 - No
+F93_4	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Su ex pareja, esposo/a o novio/a tiene ascendencia Indígena?	1 - Sí, 2 - No
+F93_5	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Su ex pareja, esposo/a o novio/a tiene otra ascendencia?	1 - Sí, 2 - No
+F94	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	Contando su ex-novio/a o ex-pareja ¿cuántas parejas o novios/as estables ha tenido?	Anote cantidad
+F95	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿A qué edad tuvo su primer novio/a o pareja estable?	Anote edad (años)
+F96	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿A qué edad tuvo su primer relación sexual?	Anote edad (años) / 99 - No aplica
+F97	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	Con su actual ex novio/a o ex-pareja, ¿tenía relaciones sexuales?	1 - Sí, 2 - No
+F98	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	En total, ¿cuántos hijos/as tiene? (Considere hijos biológicos nacidos vivos y adoptivos)	Anote cantidad
+F99	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Cuántos de sus hijos/as son de su ex-novio o ex-pareja estable?	Anote cantidad
+F99_1	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Alguno de sus hijos en común son menores de 18 años?	1 - Sí, 2 - No (Pase a preg.105)
+F100	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿A qué edad se casó o se unió con su ex-esposo o ex-pareja?	Anote edad (años)
+F101	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	Contando su ex-esposo/a o ex-pareja ¿cuántas veces ha estado casada o unida?	Anote cantidad
+F102	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿A qué edad se casó o se unió por primera vez?	Anote edad (años)
+F103	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	En total, ¿cuántos hijos/as tiene? (Considere hijos biológicos nacidos vivos y adoptivos)	Anote cantidad
+F104	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Cuántos de sus hijos/as son de su ex-esposo o ex-pareja?	Anote cantidad
+F104_1	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Alguno de sus hijos en común son menores de 18 años?	1 - Sí, 2 - No
+F105	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	La semana pasada su ex-pareja, ex-esposo/a o ex-novio/a...	1 - Trabajó (Pase a preg.107), 2 - Tenía trabajo pero no trabajó (Pase a preg.107), 3 - Buscó trabajo (Pase a preg.107), 4 - No trabajo, 5 - No sabe
+F105	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	La semana pasada su ex-pareja, ex-esposo/a o ex-novio/a...	1 - Trabajó (Pase a preg.107), 2 - Tenía trabajo pero no trabajó (Pase a preg.107), 3 - Buscó trabajo (Pase a preg.107), 4 - No trabajo, 5 - No sabe
+F106_1	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Su ex-pareja, ex-esposo/a o ex-novio/a es estudiante?	1 - Sí, 2 - No
+F106_2	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Se dedica a los quehaceres del hogar exclusivamente?	1 - Sí, 2 - No
+F106_3	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Es jubilado/a o pensionista?	1 - Sí, 2 - No
+F106_4	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Tiene alguna limitación física o mental que le impide trabajar?	1 - Sí, 2 - No
+F106_5	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿No sabe?	1 - Sí, 2 - No
+F107	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Hace cuánto tiempo se separó, se divorció o murió su ex-pareja, ex-esposo/a o ex novio/a?	Anote tiempo (años) / 00 - Menos de 1 año
+F108	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Sigue viendo o tratando con frecuencia o regularidad a su ex-pareja, ex-esposo/a o ex-novio/a?	1 - Sí, 2 - No
+F109_1	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Por qué o para qué se mantiene en contacto con él/ella? (Por los hijos)	1 - Sí, 2 - No
+F109_2	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	(Por la pensión alimenticia o bienes económicos en común)	1 - Sí, 2 - No
+F109_3	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	(Porque siguen siendo buenos amigos)	1 - Sí, 2 - No
+F109_4	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	(Porque él no acepta la separación y la busca/vigila)	1 - Sí, 2 - No
+F109_5	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	(Otro)	1 - Sí, 2 - No
+F110	CARACTERIZACIÓN DE LA ÚLTIMA PAREJA	¿Hace cuánto fue la última vez que lo/la vio o trató con él/ella?	Anote tiempo (años) / 00 - Menos de un año
+F111_1_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	Durante la relación con su ex pareja, ex esposo/a o novio/a, ¿él/ella se dirigió a usted con palabras groseras o agresivas que la han hecho sentir mal?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (no tienen hijos/as)
+F111_1_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (si no tiene hijos o más de un año)
+F111_2_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	Se burló o la criticó por sus características físicas, su conocimiento, su forma de pensar, actuar y sentir y/o la criticó por lo que hace o deja de hacer?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_2_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_3_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	La humilló, avergonzó o menospreció?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_3_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_4_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	La celó o la acusó de ser infiel de manera infundada?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_4_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_5_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	La ignoró y/o no la tomó en cuenta en las decisiones?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_5_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_6_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	La siguió, vigiló o le revisó sus cosas u objetos personales?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_6_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_7_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	Le prohibió o le impidió relacionarse con amigos/as y/o familiares?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_7_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_8_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	Le impidió o le puso obstáculos para que usted realice actividades recreativas, deportivas o de estudio fuera de su casa?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_8_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_9_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	La encerró o le impidió salir de su casa?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_9_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_10_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	Le exigió u obligó a cambiar su manera de vestir o comportarse?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_10_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_11_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	Le rompió o escondió algún objeto personal?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_11_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_12_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	La amenazó con quitarle sus hijos/as y/o no permitirle verlos de nuevo?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (si no tiene hijos/as)
+F111_12_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (si no tiene hijos/as)
+F111_13_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	La amenazó con matarla, matarse o matar a los niños o alguien que a usted le importa?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_13_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_14_1	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	Le ha hecho sentir miedo?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F111_14_2	VIOLENCIA PSICOLÓGICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica
+F112_1_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	Durante la relación con su ex pareja, ex esposo/a, ¿él/ella se negó a darle suficiente dinero o dejó de darle dinero para los gastos del hogar y de sus hijos/as a pesar de tenerlo?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F112_1_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F112_2_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	Se gastó el dinero que estaba destinado a cubrir las necesidades del hogar o de los hijos/as?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F112_2_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F112_3_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	Le quitó o se adueñó de su dinero, de bienes o cosas que son suyas?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F112_3_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F112_4_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	Le prohibió trabajar de forma remunerada?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F112_4_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F113	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LA ÚLTIMA PAREJA	Actualmente su ex-pareja, ex-esposo/a o novio/a, ¿cumple con la pensión alimenticia correspondiente a sus hijos/as menores de 18 años? (Quienes responden 1 en preg. 99.1 o 104.1)	1 - Sí, 2 - No, 9 - No aplica
+F114_1_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	Durante la relación con su ex pareja, ex esposo/a o novio/a, ¿él/ella la empujó, la tiró del pelo, la sacudió, la escupió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_1_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_2_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	Le dio cachetadas o la golpeó con las manos?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_2_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_3_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	Le tiró con zapatos, utensilios de cocina, muebles o cualquier otro objeto?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_3_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_4_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	La golpeó con el puño, la pateó o golpeó con un objeto (como un palo)?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_4_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_5_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	La quemó?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_5_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_6_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	La ató?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_6_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_7_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	Intentó ahorcarla o asfixiarla?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_7_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_8_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	Intentó envenenarla o intoxicarla?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_8_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_9_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	La amenazó con un arma de fuego, arma blanca (cuchillo, navaja) u otra arma?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_9_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F114_10_1	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	La agredió con un arma blanca (cuchillo, navaja) o le disparó con un arma de fuego?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F114_10_2	VIOLENCIA FÍSICA DE LA ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F115_1_1	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	Durante la relación con su ex pareja, ex esposo/a o novio/a, ¿él/ella la obligó a tener relaciones sexuales en contra de su voluntad mediante la fuerza física?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F115_1_2	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F115_2_1	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	Intentó tener relaciones sexuales mediante amenazas o chantajes?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F115_2_2	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F115_3_1	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	La obligó tener relaciones sexuales por medio de amenazas o chantajes?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F115_3_2	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F115_4_1	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	La obligó a realizar actos sexuales que usted no quiere, no le gustan o considera humillantes?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F115_4_2	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F115_5_1	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	La obligó a mirar escenas o actos sexuales?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F115_5_2	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F115_6_1	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	La obligó a tener relaciones sexuales con otras personas a cambio de dinero o beneficios para su pareja?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez
+F115_6_2	VIOLENCIA SEXUAL DE ÚLTIMA PAREJA	En los últimos 12 meses (de setiembre de 2012 a la fecha), ¿esto ocurrió?	1 - Una vez, 2 - Pocas veces, 3 - Muchas veces, 4 - Ninguna vez, 9 - No aplica (más de un año)
+F116_1	IMPACTO EMOCIONAL DE LA VIOLENCIA DE ÚLTIMA PAREJA	Debido a las situaciones vividas con su ex-pareja, ex-esposo/a o ex-novio/a ¿usted ha tenido dificultades o alteraciones del sueño (insomnio o duerme mucho)?	1 - Sí, 2 - No
+F116_2	IMPACTO EMOCIONAL DE LA VIOLENCIA DE ÚLTIMA PAREJA	¿Problemas o alteraciones alimenticias (dejó de comer o come mucho)?	1 - Sí, 2 - No
+F116_3	IMPACTO EMOCIONAL DE LA VIOLENCIA DE ÚLTIMA PAREJA	¿Depresión, angustia, tristeza o miedo?	1 - Sí, 2 - No
+F116_4	IMPACTO EMOCIONAL DE LA VIOLENCIA DE ÚLTIMA PAREJA	¿Agresividad o mal humor?	1 - Sí, 2 - No
+F116_5	IMPACTO EMOCIONAL DE LA VIOLENCIA DE ÚLTIMA PAREJA	¿Ideas o deseos de morir o suicidarse?	1 - Sí, 2 - No
+F117	IMPACTO EMOCIONAL DE LA VIOLENCIA DE ÚLTIMA PAREJA	Si contestó al menos un SÍ en preg. 116, sino pase a preg.118. Alguna vez ¿ha intentado suicidarse?	1 - Sí, 2 - No
+F118	IMPACTO FÍSICO DE LA VIOLENCIA DE ÚLTIMA PAREJA	Quienes responden 1, 2 o 3 en segunda columna preg. 114 o 115, siga. Quienes responden 4 o 9 en segunda columna de preg.114 o 115 pase a preg.123.. Cómo consecuencia de las situaciones vividas con su ex-pareja, ex-esposo/a o ex-novio/a, usted ¿requirió algún tipo de atención médica para curar sus lesiones?	1 - Sí, 2 - No (pase a preg. 120)
+F119	IMPACTO FÍSICO DE LA VIOLENCIA DE ÚLTIMA PAREJA	¿Estuvo hospitalizada por estas lesiones?	1 - Sí, 2 - No
+F120	IMPACTO FÍSICO DE LA VIOLENCIA DE ÚLTIMA PAREJA	¿Tuvo dificultades para realizar o no pudo realizar sus actividades habituales como consecuencia de estas lesiones?	1 - Sí, 2 - No (pase a preg. 122 si en preg.119 = 2 y 120=2)
+F121	IMPACTO FÍSICO DE LA VIOLENCIA DE ÚLTIMA PAREJA	¿Durante cuántos días estuvo hospitalizada y/o con dificultades para realizar actividades habituales?	1 - Un Día, 2 - De 2 a 7 días, 3 - Entre 8 y 30 días, 4 - 31 y más días
+F122	IMPACTO FÍSICO DE LA VIOLENCIA DE ÚLTIMA PAREJA	Como consecuencia de esos hechos ¿tuvo alguna de las siguientes secuelas (permanentes)?	1 - Cicatriz, 2 - Perdió algún órgano o miembro, 3 - Quedó con alguna limitación física (por ejemplo una limitación funcional o de movilidad), 4 - Otra, 5 - Ninguna
+F127_1	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	Sin contar a su actual o última pareja, durante la relación con alguna de sus parejas anteriores (ex esposos/as o novios/as) ¿él/ella se dirigió a usted con palabras groseras o agresivas que la han hecho sentir mal?	1 - Sí, 2 - No
+F127_2	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿Se burló o la criticó por sus características físicas, su conocimiento, su forma de pensar, actuar y sentir y/o la criticó por lo que hace o deja de hacer?	1 - Sí, 2 - No
+F127_3	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿La humilló, avergonzó o menospreció?	1 - Sí, 2 - No
+F127_4	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿La celó o la acusó de ser infiel de manera infundada?	1 - Sí, 2 - No
+F127_5	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿La ignoró y/o no la tomó en cuenta en las decisiones?	1 - Sí, 2 - No
+F127_6	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿La siguió, vigiló o le revisó sus cosas u objetos personales?	1 - Sí, 2 - No
+F127_7	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿Le prohibió o le impidió relacionarse con amigos/as y/o familiares?	1 - Sí, 2 - No
+F127_8	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿Le impidió o le puso obstáculos para que usted realice actividades recreativas, deportivas o de estudio fuera de su casa?	1 - Sí, 2 - No
+F127_9	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿La encerró o le impidió salir de su casa?	1 - Sí, 2 - No
+F127_10	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿Le exigió u obligó a cambiar su manera de vestir o comportarse?	1 - Sí, 2 - No
+F127_11	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿Le rompió o escondió algún objeto personal?	1 - Sí, 2 - No
+F127_12	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿La amenazó con quitarle sus hijos/as y/o no permitirle verlos de nuevo?	1 - Sí, 2 - No
+F127_13	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿La amenazó con matarla, matarse o matar a los niños o alguien que a usted le importa?	1 - Sí, 2 - No
+F127_14	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	¿Le ha hecho sentir miedo?	1 - Sí, 2 - No
+F128	VIOLENCIA PSICOLÓGICA DE LAS PAREJAS ANTERIORES	Si respondió al menos un Sí en preg.127 continúe. Sino pase a preg. 129. ¿La última vez que vivió una de estas situaciones con alguna de sus parejas anteriores (ex-esposos/as o novios/as) fue...	1 - Durante los últimos 12 meses (de setiembre de 2012 a la fecha), 2 - Hace más de un año, 3 - No recuerda
+F129_1	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LAS PAREJAS ANTERIORES	Sin contar a su actual pareja, durante la relación con alguna de sus parejas convivientes anteriores (ex esposos/as o novios/as), ¿él/ella se negó a darle suficiente dinero o dejó de darle dinero para los gastos del hogar y de sus hijos/as a pesar de tenerlo?	1 - Sí, 2 - No
+F129_2	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LAS PAREJAS ANTERIORES	¿Se gastó el dinero que estaba destinado a cubrir las necesidades del hogar o de los hijos/as?	1 - Sí, 2 - No
+F129_3	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LAS PAREJAS ANTERIORES	¿Le quitó o se adueñó de su dinero, de bienes o casas que son suyas?	1 - Sí, 2 - No
+F129_4	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LAS PAREJAS ANTERIORES	¿Le prohibió trabajar de forma remunerada?	1 - Sí, 2 - No
+F130	VIOLENCIA ECONÓMICA - PATRIMONIAL DE LAS PAREJAS ANTERIORES	Si respondió al menos un SI en preg.129 continúe, sino pase a 131. ¿La última vez que vivió una de estas situaciones con alguna de sus parejas anteriores (ex esposos/as o novios/as) fue...	1 - Durante los últimos 12 meses (de setiembre de 2012 a la fecha), 2 - Hace más de un año, 3 - No recuerda
+F131_1	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	Sin contar a su actual o última pareja, durante la relación con alguna de sus parejas anteriores (ex-esposos/as o ex-novios/as), ¿él/ella la empujó, la tiró del pelo, la sacudió, la escupió?	1 - Sí, 2 - No
+F131_2	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿Le dio cachetadas o la golpeó con las manos?	1 - Sí, 2 - No
+F131_3	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿Le tiró con zapatos, utensilios de cocina, muebles o cualquier otro objeto?	1 - Sí, 2 - No
+F131_4	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿La golpeó con el puño, la pateó o golpeó con un objeto (como un palo)?	1 - Sí, 2 - No
+F131_5	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿La quemó?	1 - Sí, 2 - No
+F131_6	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿La ató?	1 - Sí, 2 - No
+F131_7	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿Intentó ahorcarla o asfixiarla?	1 - Sí, 2 - No
+F131_8	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿Intentó envenenarla o intoxicarla?	1 - Sí, 2 - No
+F131_9	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿La amenazó con un arma de fuego, arma blanca (cuchillo, navaja) u otra arma?	1 - Sí, 2 - No
+F131_10	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	¿La agredió con un arma blanca (cuchillo, navaja) o le disparó con un arma de fuego?	1 - Sí, 2 - No
+F132	VIOLENCIA FÍSICA DE LAS PAREJAS ANTERIORES	Si respondió al menos un SI en preg.131 continúe, sino pase a 133. ¿La última vez que vivió una de estas situaciones con alguna de sus parejas anteriores (ex esposos/as o novios/as) fue...	1 - Durante los últimos 12 meses (de setiembre de 2012 a la fecha), 2 - Hace más de un año, 3 - No recuerda
+F133_1	VIOLENCIA SEXUAL - DE LAS PAREJAS ANTERIORES	Sin contar a su actual pareja, durante la relación con alguna de sus parejas convivientes anteriores (ex esposos/as o novios/as), ¿él/ella la obligó a tener relaciones sexuales en contra de su voluntad mediante la fuerza física?	1 - Sí, 2 - No
+F133_2	VIOLENCIA SEXUAL - DE LAS PAREJAS ANTERIORES	¿Intentó tener relaciones sexuales mediante amenazas o chantajes?	1 - Sí, 2 - No
+F133_3	VIOLENCIA SEXUAL - DE LAS PAREJAS ANTERIORES	¿La obligó tener relaciones sexuales por medio de amenazas o chantajes?	1 - Sí, 2 - No
+F133_4	VIOLENCIA SEXUAL - DE LAS PAREJAS ANTERIORES	¿La obligó a realizar actos sexuales que usted no quiere, no le gustan o considera humillantes?	1 - Sí, 2 - No
+F133_5	VIOLENCIA SEXUAL - DE LAS PAREJAS ANTERIORES	¿La obligó a mirar escenas o actos sexuales?	1 - Sí, 2 - No
+F133_6	VIOLENCIA SEXUAL - DE LAS PAREJAS ANTERIORES	¿La obligó a tener relaciones sexuales con otras personas a cambio de dinero o beneficios para su pareja?	1 - Sí, 2 - No
+F134	VIOLENCIA SEXUAL - DE LAS PAREJAS ANTERIORES	Si respondió al menos un SI en preg.133 continúe sino pase a 135. ¿La última vez que vivió una de estas situaciones con alguna de sus parejas anteriores (ex esposos/as o novios/as) fue...	1 - Durante los últimos 12 meses (de setiembre de 2012 a la fecha), 2 - Hace más de un año, 3 - No recuerda
+F135_1	IMPACTO EMOCIONAL DE LA VIOLENCIA DE PAREJAS ANTERIORES	Para todas las personas que respondieron 1 (SI) en preg. 127,129,131 o 133. Debido a las situaciones vividas con sus parejas anteriores (ex-parejas, ex-esposos/as o ex-novios/as) ¿usted ha tenido dificultades o alteraciones del sueño (insomnio o duerme mucho)?	1 - Sí, 2 - No
+F135_2	IMPACTO EMOCIONAL DE LA VIOLENCIA DE PAREJAS ANTERIORES	¿Problemas o alteraciones alimenticias (dejó de comer o come mucho)?	1 - Sí, 2 - No
+F135_3	IMPACTO EMOCIONAL DE LA VIOLENCIA DE PAREJAS ANTERIORES	¿Depresión, angustia, tristeza o miedo?	1 - Sí, 2 - No
+F135_4	IMPACTO EMOCIONAL DE LA VIOLENCIA DE PAREJAS ANTERIORES	¿Agresividad o mal humor?	1 - Sí, 2 - No
+F135_5	IMPACTO EMOCIONAL DE LA VIOLENCIA DE PAREJAS ANTERIORES	¿Ideas o deseos de morir o suicidarse?	1 - Sí, 2 - No
+F136	IMPACTO EMOCIONAL DE LA VIOLENCIA DE PAREJAS ANTERIORES	Si respondió al menos un SI en preg.135 continúe, sino pase a 137. Alguna vez ¿ha intentado suicidarse?	1 - Sí, 2 - No
+F137	IMPACTO FÍSICO DE LA VIOLENCIA DE PAREJAS ANTERIORES	Quienes respondieron preg.132=1 o 134=1, sino pase a preg.142. Cómo consecuencia de las situaciones vividas con sus parejas anteriores, (ex esposos/as o ex-novios/as, usted ¿requirió algún tipo de atención médica para curar sus lesiones?	1 - Sí, 2 - No (pase a preg. 139)
+F138	IMPACTO FÍSICO DE LA VIOLENCIA DE PAREJAS ANTERIORES	¿Estuvo hospitalizada por estas lesiones?	1 - Sí, 2 - No
+F139	IMPACTO FÍSICO DE LA VIOLENCIA DE PAREJAS ANTERIORES	¿Tuvo dificultades para realizar o no pudo realizar sus actividades habituales como consecuencia de estas lesiones?	1 - Sí, 2 - No
+F140	IMPACTO FÍSICO DE LA VIOLENCIA DE PAREJAS ANTERIORES	¿Durante cuántos días estuvo hospitalizada y/o con dificultades para realizar actividades habituales?	1 - Un Día, 2 - De 2 a 7 días, 3 - Entre 8 y 30 días, 4 - 31 y más días
+F141	IMPACTO FÍSICO DE LA VIOLENCIA DE PAREJAS ANTERIORES	Como consecuencia de esos hechos ¿tuvo alguna de las siguientes secuelas (permanentes)?	1 - Cicatriz, 2 - Perdió algún órgano o miembro, 3 - Quedó con alguna limitación física (por ejemplo una limitación funcional o de movilidad), 4 - Otra, 5 - Ninguna
+F146	CONOCIMIENTO DE LEYES E INSTITUCIONES	¿Sabe usted que hay leyes y normas para sancionar la violencia doméstica?	1 - Sí, 2 - No (pase a preg. 148)
+F147_1	CONOCIMIENTO DE LEYES E INSTITUCIONES	¿Por medio de qué o quién supo la existencia de esas leyes? (Publicaciones públicas)	1 - Sí, 2 - No
+F147_2	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Medios de comunicación)	1 - Sí, 2 - No
+F147_3	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Familiares)	1 - Sí, 2 - No
+F147_4	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Sistema educativo)	1 - Sí, 2 - No
+F147_5	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Grupos de ayuda y apoyo)	1 - Sí, 2 - No
+F147_6	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Vecinos/as)	1 - Sí, 2 - No
+F147_7	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Otra persona que vivió algo similar)	1 - Sí, 2 - No
+F147_8	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Otro)	1 - Sí, 2 - No
+F148	CONOCIMIENTO DE LEYES E INSTITUCIONES	¿Sabe usted si hay o no instituciones públicas o privadas que apoyan y atienden a las mujeres, a las niñas y adolescentes que enfrentan o han enfrentado agresiones o violaciones a sus derechos?	1 - Sí, 2 - No (pase a preg. 150)
+F149_1	CONOCIMIENTO DE LEYES E INSTITUCIONES	¿Recuerda alguna de ellas, cuáles? (Policía)	1 - Sí, 2 - No
+F149_2	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Poder Judicial)	1 - Sí, 2 - No
+F149_3	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Servicios de salud)	1 - Sí, 2 - No
+F149_4	CONOCIMIENTO DE LEYES E INSTITUCIONES	(INAU)	1 - Sí, 2 - No
+F149_5	CONOCIMIENTO DE LEYES E INSTITUCIONES	(MIDES - Inmujeres)	1 - Sí, 2 - No
+F149_6	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Centros educativos - Udelar)	1 - Sí, 2 - No
+F149_7	CONOCIMIENTO DE LEYES E INSTITUCIONES	(ONG)	1 - Sí, 2 - No
+F149_8	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Intendencia - policlínica municipal, comuna mujer)	1 - Sí, 2 - No
+F149_9	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Otra)	1 - Sí, 2 - No
+F149_10	CONOCIMIENTO DE LEYES E INSTITUCIONES	(Ninguna)	1 - Sí, 2 - No
+F150	CARACTERIZACIÓN ACTIVIDAD LABORAL DEL JEFE/A DEL HOGAR	Durante la semana pasada (Nombre del/a Jefe/a de hogar o persona de referencia), ¿trabajó por lo menos una hora sin considerar los quehaceres del hogar?	1 - Sí (pase a preg. 154), 2 - No
+F151	CARACTERIZACIÓN ACTIVIDAD LABORAL DEL JEFE/A DEL HOGAR	¿Hizo algo para afuera o ayudó en un negocio o colaboró en el cuidado de animales, cultivos o huerta que no fuera para su consumo propio?	1 - Sí (pase a preg. 154), 2 - No
+F152	CARACTERIZACIÓN ACTIVIDAD LABORAL DEL JEFE/A DEL HOGAR	Aunque no trabajó la semana pasada, ¿tiene algún trabajo o negocio al que seguro volverá?	1 - Sí (pase a preg. 154), 2 - No
+F152_1	CARACTERIZACIÓN ACTIVIDAD LABORAL DEL JEFE/A DEL HOGAR	Durante la semana pasada, ¿estuvo buscando trabajo o tratando de establecer su propio negocio?	1 - Sí, 2 - No
+F153	CARACTERIZACIÓN ACTIVIDAD LABORAL DEL JEFE/A DEL HOGAR	¿Ha trabajado antes (en su vida)?	1 - Sí, 2 - No (pase a preg. 155)
+F154	CARACTERIZACIÓN ACTIVIDAD LABORAL DEL JEFE/A DEL HOGAR	En su trabajo principal es (era)...	1 - Asalariado/a privado/a, 2 - Asalariado/a público/a, 3 - Miembro de cooperativa de producción, 4 - Patrón/a, 5 - Cuenta propia sin local ni inversión, 6 - Cuenta propia con local o inversión, 7 - Miembro del hogar no remunerado/a, 8 - Trabajador/a de Programa social de empleo
+F155	CARACTERIZACIÓN ACTIVIDAD LABORAL DEL JEFE/A DEL HOGAR	¿Es jubilado o pensionista?	1 - Sí, 2 - No
+F156	CARACTERIZACIÓN ACTIVIDAD LABORAL DEL JEFE/A DEL HOGAR	¿Es quién realiza los quehaceres del hogar?	1 - Sí, 2 - No
+F157	EDUCACIÓN JEFE/A DEL HOGAR	¿Cuál es el máximo nivel educativo alcanzado por el jefe/a del hogar?	1 - No tiene estudios en la educación formal, primaria, completa o incompleta, 2 - Secundaria completa o incompleta, 3 - Enseñanza técnica (UTU o similar) completa o incompleta, 4 - Estudios terciarios incompletos (magisterio, profesorado, universidad, otras carreras terciarias no universitarias), 5 - Estudios terciarios de grado completos (magisterio, profesorado, universidad, otras carreras terciarias no universitarias), 6 - Posgrado
+F158	EDUCACIÓN JEFE/A DEL HOGAR	En total, ¿cuántos miembros de este hogar tiene estudios terciarios universitarios (completos o incompletos)? (Incluya solamente carreras de grado universitario y posgrados completos o no)	Anote cantidad de personas [ ]
+F159	EDUCACIÓN JEFE/A DEL HOGAR	¿En cuál de las siguientes instituciones de salud se atiende fundamentalmente el principal sostén del hogar?	1 - MSP (Asse, Hospital del Clínicas, Área de salud Del BPS; Policlínica Municipal, Anda y otros servicios parciales de atención de la salud, emergencia móvil), 2 - Sanidad militar o policial, 3 - IAMC, 4 - Seguro privado médico
+F160	EDUCACIÓN JEFE/A DEL HOGAR	¿Cuántas personas perciben ingresos corrientes en el hogar? (Incluya solo ingresos monetarios)	1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+F161	CARACTERÍSTICAS DE LA VIVIENDA	El material predominante de los techos, es:	1 - De chapa, quincho u otro material precario, 2 - De planchada de hormigón u otro
+F162	CARACTERÍSTICAS DE LA VIVIENDA	Esta vivienda, tiene baño?	1 - Sí (Cuantos? [ ] 1 [ ] 2 más de 2), 2 - No (pase a preg. 163)
+F163	CONFORT DEL HOGAR	El hogar, ¿cuenta con servicio doméstico?	1 - Sí, todos los días (5 o más días a la semana), 2 - Sí, por hora (menos de 5 días a la semana, independientemente de la forma de pago), 3 - Sí, con cama, 4 - No
+F164_1	CONFORT DEL HOGAR	Este hogar, cuenta con... Refrigerador (con o sin freezer)	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_2	CONFORT DEL HOGAR	Lavarropa	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_3	CONFORT DEL HOGAR	TV color	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_4	CONFORT DEL HOGAR	Teléfono fijo	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_5	CONFORT DEL HOGAR	Microcomputador (incluye laptops) NO INCLUYA CEBAL	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_6	CONFORT DEL HOGAR	DVD	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_7	CONFORT DEL HOGAR	Lavavajillas	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_8	CONFORT DEL HOGAR	Televisión para abonados	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_9	CONFORT DEL HOGAR	Microondas	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_10	CONFORT DEL HOGAR	Aire acondicionado	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F164_11	CONFORT DEL HOGAR	Automóvil o camioneta (exclusivo para uso del hogar)	Número de unidades: 0, 1, 2, 3, 4, 5, 6 o más
+F165_1	CONFORT DEL HOGAR	Le he preguntado sobre asuntos muy delicados, ¿cómo se sintió al hablar de ellos? (Triste)	1 - Sí, 2 - No
+F165_2	SE SIENTE	(Enojada)	1 - Sí, 2 - No
+F165_3	SE SIENTE	(Angustiada)	1 - Sí, 2 - No
+F165_4	SE SIENTE	(Preocupada)	1 - Sí, 2 - No
+F165_5	SE SIENTE	(Indiferente)	1 - Sí, 2 - No
+F165_6	SE SIENTE	(Apenada)	1 - Sí, 2 - No
+F165_7	SE SIENTE	(Avergonzada)	1 - Sí, 2 - No
+F165_8	SE SIENTE	(Liberada)	1 - Sí, 2 - No
+F165_9	SE SIENTE	(Tranquila)	1 - Sí, 2 - No
+F165_10	SE SIENTE	(Descansada)	1 - Sí, 2 - No
+F165_11	SE SIENTE	(Aliviada)	1 - Sí, 2 - No
+F165_12	SE SIENTE	(Optimista)	1 - Sí, 2 - No
+F165_13	SE SIENTE	(Bien)	1 - Sí, 2 - No
+F165_14	SE SIENTE	(En paz consigo misma)	1 - Sí, 2 - No
